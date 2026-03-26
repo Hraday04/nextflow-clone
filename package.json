@@ -11,7 +11,7 @@
     "trigger:dev": "npx trigger.dev dev"
   },
   "prisma": {
-    "schema": "prisma/schema.prisma"
+    "schema": "schema.prisma"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.12.2",
