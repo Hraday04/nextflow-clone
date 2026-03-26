@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../trigger/tasks/croptask.ts"],
+  "sourcesContent": ["import { task } from \"@trigger.dev/sdk/v3\";\n\nexport const cropTask = task({\n  id: \"crop-task\",\n\n  run: async (payload: { image_url: string }) => {\n    console.log(\"CROP TASK RUNNING\", payload);\n\n    return {\n      output: payload.image_url,\n    };\n  },\n});\n"],
+  "mappings": ";;;;;;;;;AAAA;AAEO,IAAM,WAAW,KAAK;AAAA,EAC3B,IAAI;AAAA,EAEJ,KAAK,8BAAO,YAAmC;AAC7C,YAAQ,IAAI,qBAAqB,OAAO;AAExC,WAAO;AAAA,MACL,QAAQ,QAAQ;AAAA,IAClB;AAAA,EACF,GANK;AAOP,CAAC;",
+  "names": []
+}

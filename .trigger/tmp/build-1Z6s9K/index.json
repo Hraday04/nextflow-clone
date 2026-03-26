@@ -1,0 +1,45 @@
+{
+  "configPath": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger.config.mjs",
+  "customConditions": [
+  ],
+  "queues": [
+  ],
+  "runtime": "node",
+  "runtimeVersion": "24.4.1",
+  "tasks": [
+    {
+      "entryPoint": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/croptask.mjs",
+      "filePath": "trigger/tasks/croptask.ts",
+      "id": "crop-task",
+      "maxDuration": 300
+    },
+    {
+      "entryPoint": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/llmtask.mjs",
+      "filePath": "trigger/tasks/llmtask.ts",
+      "id": "llm-task",
+      "maxDuration": 300
+    },
+    {
+      "entryPoint": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/crop-image.mjs",
+      "filePath": "trigger/crop-image.ts",
+      "id": "crop-image",
+      "maxDuration": 300
+    },
+    {
+      "entryPoint": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/extract-frame.mjs",
+      "filePath": "trigger/extract-frame.ts",
+      "id": "extract-frame",
+      "maxDuration": 300
+    }
+  ],
+  "timings": {
+    "src/trigger/crop-image.ts": 0.29245800000001054,
+    "src/trigger/extract-frame.ts": 0.2677500000000066,
+    "trigger/crop-image.ts": 1.789291999999989,
+    "trigger/extract-frame.ts": 0.3439170000000047,
+    "trigger/index.ts": 0.25712500000000205,
+    "trigger/tasks/croptask.ts": 0.6077499999999816,
+    "trigger/tasks/llmtask.ts": 0.28608299999999076
+  },
+  "workerEntryPoint": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/opt/homebrew/lib/node_modules/trigger.dev/dist/esm/entryPoints/dev-run-worker.mjs"
+}

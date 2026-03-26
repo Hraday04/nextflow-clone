@@ -1,0 +1,42 @@
+import { NextRequest, NextResponse } from "next/server";
+
+export async function POST(request: NextRequest) {
+  try {
+    const { videoUrl, timestamp, frameNumber } = await request.json();
+
+    // Validate inputs
+    if (!videoUrl || (timestamp === undefined && frameNumber === undefined)) {
+      return NextResponse.json(
+        {
+          error:
+            "Missing required parameters: videoUrl and either timestamp or frameNumber",
+        },
+        { status: 400 },
+      );
+    }
+
+    // For now, simulate the Trigger.dev task with a mock response
+    // In production, you would trigger the actual Trigger.dev task here
+    const mockResult = {
+      success: true,
+      extractedFrame:
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==", // Mock base64 image
+      base64:
+        "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==",
+      mimeType: "image/jpeg",
+      videoInfo: {
+        format: { duration: "10.0" },
+        streams: [{ width: 1920, height: 1080 }],
+      },
+      extractedAt: timestamp || frameNumber,
+    };
+
+    return NextResponse.json(mockResult);
+  } catch (error) {
+    console.error("Extract frame API error:", error);
+    return NextResponse.json(
+      { error: "Failed to process frame extraction request" },
+      { status: 500 },
+    );
+  }
+}

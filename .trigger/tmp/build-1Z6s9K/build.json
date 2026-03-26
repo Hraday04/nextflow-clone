@@ -1,0 +1,173 @@
+{
+  "build": {
+  },
+  "cliPackageVersion": "4.4.3",
+  "config": {
+    "dirs": [
+      "src/trigger",
+      "trigger"
+    ],
+    "project": "proj_aekzrfphlnvpvojxxnrr"
+  },
+  "configPath": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger.config.mjs",
+  "contentHash": "48b10d006e7315c3e7b9e8a532409836",
+  "customConditions": [
+  ],
+  "deploy": {
+    "env": {
+    }
+  },
+  "environment": "dev",
+  "externals": [
+    {
+      "name": "import-in-the-middle",
+      "version": "1.11.0"
+    }
+  ],
+  "files": [
+    {
+      "entry": "trigger/tasks/croptask.ts",
+      "out": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/croptask.mjs"
+    },
+    {
+      "entry": "trigger/tasks/llmtask.ts",
+      "out": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/llmtask.mjs"
+    },
+    {
+      "entry": "src/trigger/crop-image.ts",
+      "out": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/src/trigger/crop-image.mjs"
+    },
+    {
+      "entry": "src/trigger/extract-frame.ts",
+      "out": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/src/trigger/extract-frame.mjs"
+    },
+    {
+      "entry": "trigger/crop-image.ts",
+      "out": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/crop-image.mjs"
+    },
+    {
+      "entry": "trigger/extract-frame.ts",
+      "out": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/extract-frame.mjs"
+    },
+    {
+      "entry": "trigger/index.ts",
+      "out": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/index.mjs"
+    }
+  ],
+  "indexWorkerEntryPoint": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/opt/homebrew/lib/node_modules/trigger.dev/dist/esm/entryPoints/dev-index-worker.mjs",
+  "otelImportHook": {
+    "include": [
+    ]
+  },
+  "outputHashes": {
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/src/trigger/crop-image.mjs": "5MnE2zZNGfM",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/src/trigger/crop-image.mjs.map": "xpKFcNp5ey4",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/src/trigger/extract-frame.mjs": "1Z0YALkHJQI",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/src/trigger/extract-frame.mjs.map": "E7FCGA6ogOQ",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger.config.mjs": "hpJAQP58d0I",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger.config.mjs.map": "Eh25At9lHUc",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/crop-image.mjs": "OWIvJHYpm6o",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/crop-image.mjs.map": "0b4tlwmkM3g",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/extract-frame.mjs": "w9XACnynPDE",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/extract-frame.mjs.map": "0b4tlwmkM3g",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/index.mjs": "AqKeqvbR4fg",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/index.mjs.map": "b+dMke89mew",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/croptask.mjs": "T0WgyEb1nEk",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/croptask.mjs.map": "0b4tlwmkM3g",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/llmtask.mjs": "IjnAEd84FbM",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/trigger/tasks/llmtask.mjs.map": "0b4tlwmkM3g",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-2TWK6CYE.mjs": "hIjmRRJCEhI",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-2TWK6CYE.mjs.map": "m3sDAUkIQ9s",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-4BTWBZNE.mjs": "EEZ4x2mrU7o",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-4BTWBZNE.mjs.map": "0n6vcC61q7I",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-CKFP7P4Q.mjs": "D02jSUDSpJI",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-CKFP7P4Q.mjs.map": "LMPzUuAiOIM",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-CW33I5W4.mjs": "PWHxaQ36uPk",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-CW33I5W4.mjs.map": "aI/HH/5/USM",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-DDKKVCPW.mjs": "SBrPBUR2boE",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-DDKKVCPW.mjs.map": "N/CSewZl5r8",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-E3X6CTIO.mjs": "IzJLjyJUw6U",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-E3X6CTIO.mjs.map": "hi50Clh4Vbw",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-EAL77H75.mjs": "9eJaFPMhKcU",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-EAL77H75.mjs.map": "DKv6Q8K7YCU",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-KMGDG3EC.mjs": "nwqsHyPnj88",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-KMGDG3EC.mjs.map": "AMScPtOE2xU",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-O543HE5X.mjs": "bU2fTAATLow",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-O543HE5X.mjs.map": "JzjIpYdN2+8",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-UADPIGMO.mjs": "a18WMMZpVOY",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-UADPIGMO.mjs.map": "iBwLIlyUF9Y",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-XKSVZXT5.mjs": "icDNV0zAhNI",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/chunk-XKSVZXT5.mjs.map": "sHbzgG7gTQQ",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/crypto.node-D2RXB553.mjs": "um85bmdPUMs",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/crypto.node-D2RXB553.mjs.map": "Uy9ob0GOvaI",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/crypto.node-KHSXFQBR.mjs": "8HM0pN43DOU",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/crypto.node-KHSXFQBR.mjs.map": "0b4tlwmkM3g",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/esm-66WKT5YP.mjs": "rG5sQZeA9jA",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/esm-66WKT5YP.mjs.map": "VON93E1In1A",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/esm-OPAB5UTK.mjs": "T6JYPdPdrU4",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/esm-OPAB5UTK.mjs.map": "vgwGoq9dsl4",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-bsd-QPXSTDBB.mjs": "qoQ77QMIwcM",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-bsd-QPXSTDBB.mjs.map": "JfVyBnwPnn4",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-darwin-GUBIFC6S.mjs": "65DsSx+WYSc",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-darwin-GUBIFC6S.mjs.map": "iGTKwkUZXdE",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-linux-VMDCHSVC.mjs": "VoIqzJm7jhE",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-linux-VMDCHSVC.mjs.map": "+c9AVcnPNqI",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-unsupported-XVPX4DJF.mjs": "O+8CaAdMMOM",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-unsupported-XVPX4DJF.mjs.map": "gdOvXfvoRWU",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-win-OPYP5OW5.mjs": "q+3Va7vlsO8",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/getMachineId-win-OPYP5OW5.mjs.map": "Uk49/0QMHBw",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/opt/homebrew/lib/node_modules/trigger.dev/dist/esm/entryPoints/dev-index-worker.mjs": "Ak8cQ8J1D9Q",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/opt/homebrew/lib/node_modules/trigger.dev/dist/esm/entryPoints/dev-index-worker.mjs.map": "iJ99bNANMVM",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/opt/homebrew/lib/node_modules/trigger.dev/dist/esm/entryPoints/dev-run-worker.mjs": "Vm/X8HvryeU",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/opt/homebrew/lib/node_modules/trigger.dev/dist/esm/entryPoints/dev-run-worker.mjs.map": "MZXxVNovA6A",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/s2s-4UGEX4XV.mjs": "xrHK0r5mDoY",
+    "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/s2s-4UGEX4XV.mjs.map": "ktEkNkFzF+8"
+  },
+  "outputPath": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K",
+  "packageVersion": "4.4.3",
+  "runWorkerEntryPoint": "/Users/hradaymachhi/Desktop/projects/nextflow-clone-main/.trigger/tmp/build-1Z6s9K/opt/homebrew/lib/node_modules/trigger.dev/dist/esm/entryPoints/dev-run-worker.mjs",
+  "runtime": "node",
+  "sources": {
+    "package.json": {
+      "contentHash": "b80c0d7f0b8f0efe420df514f6681cc2",
+      "contents": "eJx1UstuwjAQvPMVKGeyeUIpJw79jkiuvSC3xo5sE2gR/14/8gJRKZKzM+vd2VnfFstlIskJk5078WoPQl1SKpTEZOW5DrXhSno6hwLyiLaad8T6S1afMUCGat5a46CbCx3AsBuKLv3/KsKfZy7YSMSop4wl2o5UjHpKcDkxIegJq/nxiHo3dGuvyx4CB4XGLvEeJDJsUTKUlONM554K1N+Zr/zl4aTZQFFCOXTYu2HNiWRUcIwimjWUZW+FT5g1zAz7Dik11FCN6s+UM0w1EhoL5FDV9VTB9w54UUMJ1XrAldNLeK+pmrWcKhVbqKB4wFOmTv9xfr2RK8B99WQjkUYowrjt5b9N5K8KC2sqKCvYzv3sPl5bagkXFy4ZNSZrlbHujGUnz35aNJlULLy8psyfmNmE76+oaciRRjO8kuYJS6mSB35MB5+LjbN5NCbu98ViZ1M8qg86wnuPt4Ili/viDwys4AM="
+    },
+    "src/trigger/crop-image.ts": {
+      "contentHash": "866b60294f8161f6ad15fee570b2e962",
+      "contents": "eJx9VE2PmzAQvedXjNAeiATh0KoHolTtZhWpt6q7PTdeMOANxpYxu0ER/73jj/BRJb0kMPPmzbw3NoxLoTRcQJP2BAMUSnAIvmnFypKqTU7fkzY/Je+fgu2KXbH0TLMRm1Wszv9IJTLatnMUhjhrWdGP0E6zekIUrQ8XszJJdOXD5hETq0w0rbY9v7d9k8FuYg5NdI0YerbVDpopIX9wUtIXo2lnpYWXFQDLU5wXszEz6SDCmOqaFIglDiXpa0EQZMAIN6Dfqk6hRT+acmuj5xSajr9S5V775esHy3W1DFWUlZWex4Y17L76Jm7ky9gsgnMEfeSIIl+MDqJqNx2qNXVa9Z4BIElgryjRFDTlEnKmaKaF6n3atTCpJ6aQKEg0l4n1wa8NxQVbjyYfhM3sDo/8hIQQS3i4eI7huPZT2N5P4qMxkwFrZKedkkVrG/9pNruzC968CdaEniyCwOY3b7IM1ttFoej0/ysd4Fp6ayQzDHRGIWSdqu+JNDmIBWochx0gwDe/liFYat6jewvyw4FLWi6mNw7vBeekyXH8Y1EYBMRs2SR+L9yh3D1c7NKH9OHi1m6ezuanHwKIe6ybDBmO9xY2a7sY+RdFP3RFvatQsJrecPuxKwpqjknRbvBQ5QeEPRveqffNLT2Sln75jHVzmo0Wz/buhMGrzS/XtK8paTp5bymKQ6yK2+dOUd2pZrwCAG2XmaOc4s3oaDSGjRuS5vZ7kMIxJ5qkdm/JG25j66aKrs46EcNxqneAdCFyynLG6UsvkTmYSINrfnA+DZARnVUQUqWEwq9N06/Hwe/rKEjdzoT4Yvu34YjAdv82Mt+WaDWgS38BeUPT1Q=="
+    },
+    "src/trigger/extract-frame.ts": {
+      "contentHash": "5893d4f25f64e525591aa8d0da790c10",
+      "contents": "eJyVVUuP2zYQvvtXTIU9yIAfCBr0IMNpkk22aA9J0U1vAWKuNLS5K5IKSXljOPrvHVLUa+ENmtN6Z7755psHR0JW2jg4g2P2ARrgRktIXjsj9ns0qwKPa1s8rI+/JpuZ6LD4DfMemx9EWXypjM7R2jGKTFJYwU89tHaiHBDcRjMfhVXMHaLZ/yTHLNfKupDzjT2pHLYDc+qtc8LgtxDdQZ1hubsxTOInX9Y2VJeeZwCiyCCJgCX3iGRBZlOrDFigTyt2KjUjnMcDHEWB+l9TZmCpK2q/CVYnJFrHZJWBquUdmg2s1yAUWCQRhQ2gwP8huH+f4Fjp0CjmxBHB6YGMopo5bF/F1G05517CYkAuxuTUYGpKK5uaEfSZUyQBn/DaIHOUC2UFhTCYO21O0d1m8a53whBRsnayWgf6ZRwrlZ1sIpw9MjEaR7qTD8QIywquzpGk2c2jjJD8nX5UXhq1p6pdW80kd7D/7Se/DQuwutdCpZFsAUnwr2T1MplvJoG6dj+ODFWs7qt9cllR0AK1LxDy2pTP1eh9sNRUYq+1geTq3E2mSaYlv283rB1S5L+5kRXuI6bE6LzWUjJVdHUJDul4sr9st1CrArlQWMz7kU6S2ApzwUUes7V71gPHWahLO869DFiKaTHLI4fEYkmrscWvqfr8eXF1Hilp5onHeIOFF7A8UfjQ/mbXFdAAlhYvC231sZHi8eb/nFxr/b514c3/0zZ7Zr7jpJM5/oO0JO6AcdOAixIvbODbmnP0b4fbFb204oZgt554UHFxc98yi7+9pLgxzcrp23Bp0uQu+Ke7+wfGJ0TPhj99R1xPWkfP9w6pNfC1FhRGz1ko94VrI2kI91Yr6uNBP3aW9h86c8iknfR7N1V/pltYkOasVfIn5Q036GlfR4Ke1O89FPDX7ccPq4oZi2nPNKn2ukSm6uq5d2kkLA2/fHkMutqo0SbaOvfHLKPjWOOiN8evARbhg5HBrmCOZUKyPa7vafc27RQW3U61Q2t2A0MLyCZDHbySlvTTqSLmZCBNBn9feBa6ckHYG2p0v+rw/fv49nfwpu1vAzlz+QFSNEYb+qap03A1nu8IZ/RoR5nb4PBnRXktyX6ayH+rFrOG+v0f+UGd1A=="
+    },
+    "trigger.config.ts": {
+      "contentHash": "dc0cfcee8696344880e788600882cc8d",
+      "contents": "eJxVzLsKg0AQheF+n2KwSkBUkDTaBFTENAliL6KjWS+7Mq6LRH33aLp0p/i/w4dRkoIVKqy5wECKmjewQ01yAOOuiDcNklWhtqeqs7Vr+Izh8kMHKeZe/dHLygBGki2WyjtHidNkodBWliZxHKX5K30+oiDLkxC2DYyzzQvsPlSP717oUct2WQSRYR5PQ7GEMxWKS+GB6zgm2DbcYOBiVjix/eqzL/tUQlA="
+    },
+    "trigger/crop-image.ts": {
+      "contentHash": "866b60294f8161f6ad15fee570b2e962",
+      "contents": "eJx9VE2PmzAQvedXjNAeiATh0KoHolTtZhWpt6q7PTdeMOANxpYxu0ER/73jj/BRJb0kMPPmzbw3NoxLoTRcQJP2BAMUSnAIvmnFypKqTU7fkzY/Je+fgu2KXbH0TLMRm1Wszv9IJTLatnMUhjhrWdGP0E6zekIUrQ8XszJJdOXD5hETq0w0rbY9v7d9k8FuYg5NdI0YerbVDpopIX9wUtIXo2lnpYWXFQDLU5wXszEz6SDCmOqaFIglDiXpa0EQZMAIN6Dfqk6hRT+acmuj5xSajr9S5V775esHy3W1DFWUlZWex4Y17L76Jm7ky9gsgnMEfeSIIl+MDqJqNx2qNXVa9Z4BIElgryjRFDTlEnKmaKaF6n3atTCpJ6aQKEg0l4n1wa8NxQVbjyYfhM3sDo/8hIQQS3i4eI7huPZT2N5P4qMxkwFrZKedkkVrG/9pNruzC968CdaEniyCwOY3b7IM1ttFoej0/ysd4Fp6ayQzDHRGIWSdqu+JNDmIBWochx0gwDe/liFYat6jewvyw4FLWi6mNw7vBeekyXH8Y1EYBMRs2SR+L9yh3D1c7NKH9OHi1m6ezuanHwKIe6ybDBmO9xY2a7sY+RdFP3RFvatQsJrecPuxKwpqjknRbvBQ5QeEPRveqffNLT2Sln75jHVzmo0Wz/buhMGrzS/XtK8paTp5bymKQ6yK2+dOUd2pZrwCAG2XmaOc4s3oaDSGjRuS5vZ7kMIxJ5qkdm/JG25j66aKrs46EcNxqneAdCFyynLG6UsvkTmYSINrfnA+DZARnVUQUqWEwq9N06/Hwe/rKEjdzoT4Yvu34YjAdv82Mt+WaDWgS38BeUPT1Q=="
+    },
+    "trigger/extract-frame.ts": {
+      "contentHash": "5893d4f25f64e525591aa8d0da790c10",
+      "contents": "eJyVVUuP2zYQvvtXTIU9yIAfCBr0IMNpkk22aA9J0U1vAWKuNLS5K5IKSXljOPrvHVLUa+ENmtN6Z7755psHR0JW2jg4g2P2ARrgRktIXjsj9ns0qwKPa1s8rI+/JpuZ6LD4DfMemx9EWXypjM7R2jGKTFJYwU89tHaiHBDcRjMfhVXMHaLZ/yTHLNfKupDzjT2pHLYDc+qtc8LgtxDdQZ1hubsxTOInX9Y2VJeeZwCiyCCJgCX3iGRBZlOrDFigTyt2KjUjnMcDHEWB+l9TZmCpK2q/CVYnJFrHZJWBquUdmg2s1yAUWCQRhQ2gwP8huH+f4Fjp0CjmxBHB6YGMopo5bF/F1G05517CYkAuxuTUYGpKK5uaEfSZUyQBn/DaIHOUC2UFhTCYO21O0d1m8a53whBRsnayWgf6ZRwrlZ1sIpw9MjEaR7qTD8QIywquzpGk2c2jjJD8nX5UXhq1p6pdW80kd7D/7Se/DQuwutdCpZFsAUnwr2T1MplvJoG6dj+ODFWs7qt9cllR0AK1LxDy2pTP1eh9sNRUYq+1geTq3E2mSaYlv283rB1S5L+5kRXuI6bE6LzWUjJVdHUJDul4sr9st1CrArlQWMz7kU6S2ApzwUUes7V71gPHWahLO869DFiKaTHLI4fEYkmrscWvqfr8eXF1Hilp5onHeIOFF7A8UfjQ/mbXFdAAlhYvC231sZHi8eb/nFxr/b514c3/0zZ7Zr7jpJM5/oO0JO6AcdOAixIvbODbmnP0b4fbFb204oZgt554UHFxc98yi7+9pLgxzcrp23Bp0uQu+Ke7+wfGJ0TPhj99R1xPWkfP9w6pNfC1FhRGz1ko94VrI2kI91Yr6uNBP3aW9h86c8iknfR7N1V/pltYkOasVfIn5Q036GlfR4Ke1O89FPDX7ccPq4oZi2nPNKn2ukSm6uq5d2kkLA2/fHkMutqo0SbaOvfHLKPjWOOiN8evARbhg5HBrmCOZUKyPa7vafc27RQW3U61Q2t2A0MLyCZDHbySlvTTqSLmZCBNBn9feBa6ckHYG2p0v+rw/fv49nfwpu1vAzlz+QFSNEYb+qap03A1nu8IZ/RoR5nb4PBnRXktyX6ayH+rFrOG+v0f+UGd1A=="
+    },
+    "trigger/index.ts": {
+      "contentHash": "0918022c4831b6556ec24f44880b0627",
+      "contents": "eJxlyTEKwCAMQNG9pxB3zQF6mmBTCTVVkgwevzgWt89/AMGVayUFfi+a2e1gGV09xAyO9hi0JiviuUnRPjZaM7Fgpd+m6YrF060oSz4cDil9"
+    },
+    "trigger/tasks/croptask.ts": {
+      "contentHash": "a1f9c23df40ac35f7136b5c7253a44b7",
+      "contents": "eJw9jU2LwjAURff5FZesKtS6mF2L4jCLYRio4sdago2htE3KSyJKyX83Dc5s3oP7znm3HUZDDhOcsB0CbmQG8K2jVilJRSPvK9t0q/sHrxiTjwRfjbZxkhlPs7RObjYxoG1K8PmwnCOes5iR1yWEfeorslE8eyMiNKEdhJIXT30JG9u0QlhgvcH8BqnC9LLojcr412G3x+nz+IvDua5/6m+e4/1pUbHEk3Se9FsGjHejd+UfVfyX5QkIVVwhZyHqLz+QUBw="
+    },
+    "trigger/tasks/llmtask.ts": {
+      "contentHash": "b1a1c4b242789510a240b340a563b36e",
+      "contents": "eJxVjk1rgzAcxu/5FA9hBwtOD7sp3dbDGGWtjM6dxmhFMxGNCfnHMhG/+2KQsV1/z2sjtTIWE2xBLWZ8GSXBH61p6lqYqBLXmKo2vt7xlDHx7c2l6smi62S+ZLY+GkwMaKoE3PHbhfCQOWSGPkFBY18i0MXYqcJ5Fi9AI1khz9otavuQgNxoX6deG0iYsxRERS3+K410iH7tH58LnjfY3q+1yzvViahTdcAPhyPy3dsLTu9Zts+eeYj1xSZl3h7HyJ+Or5CqbD0wwg6mX8sANVg92ASX3R4nQdq1u0c301oT/X06X0Kfmv2nkM1u5AcknG1P"
+    },
+    "tsconfig.json": {
+      "contentHash": "4c20b373a3a6e74bd9825bb4e97fe052",
+      "contents": "eJxtUU1LxDAUvPdXlByLtupF8CTIHlxcBD3KImnzcOPmiyStlWX/uy9p4m6rpzAzL5N5k0NRlqTT0nAB9tl4rpUjd+UBaRQ8tR/gEZPV683V9S25mHjBWyTfIkDItEzKBGruwdJWwIkFp2D0JMJtcqFC6K91eM7bHhLp9tw88fZhB91+oXjLOz/nlF5JvuDAbTTrBTwqTKHNXJRRChulRDP+BZwWfSghTLS9YthKHrFBHGDttNpklzNnjir1wCZtsdWnG4OjQQ+wQ+6FcNVZkKA8FfN5I/oPHn8il3xIZ1iayrjBqdGyPM6aNdTvTt+IxH1TnXkhUTfOdkgmZltkk2OwCMFEz+D3TnzrEtRQs9q7HL+qmuovHDOuw6XGfxtwzWJ0khgM/8sRSsRF2onAuAykGbzL1HUYK47FD58uu6s="
+    }
+  },
+  "target": "dev"
+}

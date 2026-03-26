@@ -1,0 +1,656 @@
+@import "tailwindcss";
+
+/* Force dark theme everywhere */
+* {
+  color-scheme: dark !important;
+}
+
+:root {
+  color-scheme: dark !important;
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+html {
+  color-scheme: dark !important;
+  background: #09090b;
+}
+
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #09090b !important;
+  color: #fafafa !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Basic dark theme overrides */
+.bg-gray-50,
+.bg-gray-100 {
+  background-color: #111111 !important;
+}
+
+/* Minimal React Flow dark styling */
+.react-flow__controls button {
+  background: #18181b !important;
+  color: #fafafa !important;
+  border: 1px solid #27272a !important;
+}
+
+/* Input and form styling for dark theme */
+input,
+textarea,
+select,
+button {
+  background: #18181b;
+  color: #fafafa;
+  border: 1px solid #27272a;
+  border-radius: 8px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #52525b;
+}
+
+/* Button styling */
+
+
+/* Custom scrollbar styling for dark theme */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1f2937;
+}
+
+/* Dark theme scrollbars */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #555555;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #777777;
+}
+
+/* Custom scrollbar styling for LLM output */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #1f2937;
+  border-radius: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Firefox scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1f2937;
+}
+
+/* Force React Flow to use dark theme */
+.react-flow {
+  background: #09090b !important;
+  color: #fafafa !important;
+}
+
+.react-flow__background {
+  background: #09090b !important;
+}
+
+.react-flow__pane {
+  background: transparent !important;
+}
+
+/* Force dark theme everywhere */
+[data-theme="light"] {
+  color-scheme: dark !important;
+}
+
+.light,
+[class*="light"],
+*[class*="light"] {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Force all text to be white for readability - exclude React Flow */
+h1:not(.react-flow__node *),
+h2:not(.react-flow__node *),
+h3:not(.react-flow__node *),
+h4:not(.react-flow__node *),
+h5:not(.react-flow__node *),
+h6:not(.react-flow__node *),
+p:not(.react-flow__node *),
+span:not(.react-flow__node *),
+div:not(.react-flow__node *),
+label:not(.react-flow__node *) {
+  color: #ffffff !important;
+}
+
+/* Input and textarea styling - exclude React Flow */
+input:not(.react-flow__node *),
+textarea:not(.react-flow__node *) {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
+}
+
+input:not(.react-flow__node *):focus,
+textarea:not(.react-flow__node *):focus {
+  border: 1px solid #1300e9 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3) !important;
+}
+
+/* Button styling - exclude React Flow */
+button:not(.react-flow__node *) {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+button:not(.react-flow__node *):hover {
+  background: #f0f0f02c !important;
+}
+
+button:not(.react-flow__node *):disabled {
+  background: #4a5568 !important;
+  color: #a0aec0 !important;
+}
+
+button:not(.react-flow__node *):not([class*="bg-"]) {
+  background: #6366f1 !important;
+  color: white !important;
+}
+
+/* Fix for node disappearing during drag/connection */
+.react-flow__node-dragging {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 1000 !important;
+}
+
+.react-flow__node.dragging {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 1000 !important;
+}
+
+.react-flow__node.connecting {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure nodes are always visible */
+.react-flow__node {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: all !important;
+}
+
+/* Fix for node content during drag */
+.react-flow__node > * {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Prevent CSS inheritance issues */
+.react-flow__node div,
+.react-flow__node span,
+.react-flow__node button,
+.react-flow__node input,
+.react-flow__node textarea {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure handles are always visible */
+.react-flow__handle {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 10 !important;
+}
+
+/* Specific React Flow node styling to override globals */
+.react-flow__node .bg-gray-900 {
+  background: rgba(24, 24, 27, 0.8) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.react-flow__node .bg-white {
+  background: #1f2937 !important;
+}
+
+.react-flow__node .text-white {
+  color: #ffffff !important;
+}
+
+.react-flow__node .text-black {
+  color: #ffffff !important;
+}
+
+.react-flow__node .border-gray-700 {
+  border-color: #374151 !important;
+}
+
+.react-flow__node .border-gray-200 {
+  border-color: #374151 !important;
+}
+
+/* Ensure React Flow nodes maintain proper visibility during all operations */
+.react-flow__nodes {
+  z-index: 2 !important;
+}
+
+.react-flow__edges {
+  z-index: 1 !important;
+}
+
+/* Force visibility for all node states */
+.react-flow__node.selected,
+.react-flow__node:hover,
+.react-flow__node:focus {
+  opacity: 0.3 !important;
+  visibility: visible !important;
+  z-index: 999 !important;
+}
+
+/* Critical fix for drag visibility issues */
+.react-flow__renderer {
+  z-index: 1 !important;
+}
+
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Prevent any transforms from hiding nodes */
+.react-flow__node[style*="transform"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Fix for dragging state */
+.react-flow__node[dragging="true"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 1000 !important;
+}
+
+/* Ensure children elements stay visible */
+.react-flow__node * {
+  opacity: inherit !important;
+  visibility: inherit !important;
+}
+
+/* Force visible state for all possible node states */
+.react-flow__node.react-flow__node-textNode,
+.react-flow__node.react-flow__node-imageNode,
+.react-flow__node.react-flow__node-llmNode,
+.react-flow__node.react-flow__node-videoNode,
+.react-flow__node.react-flow__node-frameNode,
+.react-flow__node.react-flow__node-cropNode {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Force edge container and SVG visibility */
+.react-flow__edges svg,
+.react-flow__edges g,
+.react-flow__edge svg,
+.react-flow__edge g {
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure edge elements are always visible */
+.react-flow__edge-path {
+  stroke: #ffffff !important;
+  stroke-width: 2px !important;
+  fill: none !important;
+  opacity: 0.8 !important;
+  visibility: visible !important;
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: #f8f8f8 !important;
+  stroke-width: 3px !important;
+  opacity: 1 !important;
+}
+
+/* Final override - must be last and most specific */
+.react-flow__renderer .react-flow__edges svg path,
+.react-flow__renderer .react-flow__edge svg path,
+.react-flow__renderer .react-flow__edge path {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  fill: none !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* Ensure SVG containers are visible */
+.react-flow__renderer svg.react-flow__edges,
+.react-flow__renderer .react-flow__edges svg,
+svg[data-testid="rf__edges"] {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+  overflow: visible !important;
+}
+
+/* Connection line container and wrapper */
+.react-flow__connection path,
+.react-flow__connectionline path {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  stroke-dasharray: 5, 5 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  fill: none !important;
+}
+
+/* Ensure connection line SVG is visible */
+.react-flow__connection,
+.react-flow__connectionline {
+  z-index: 1000 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: none !important;
+}
+
+/* Force connection line visibility during drag */
+.react-flow__renderer .react-flow__connection-line,
+.react-flow__renderer .react-flow__connection,
+.react-flow__renderer .react-flow__connectionline {
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 1000 !important;
+}
+
+.react-flow__renderer .react-flow__connection-line path,
+.react-flow__renderer .react-flow__connection path,
+.react-flow__renderer .react-flow__connectionline path {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  stroke-dasharray: 5, 5 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  fill: none !important;
+}
+
+/* Ensure all edge elements are visible after connection */
+.react-flow__edges svg,
+.react-flow__edges g,
+.react-flow__edges path,
+.react-flow__edge svg,
+.react-flow__edge g,
+.react-flow__edge path,
+.react-flow__edge-path,
+path.react-flow__edge-path {
+  stroke: #ffffff !important;
+  stroke-width: 2px !important;
+  fill: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+.react-flow__edge,
+.react-flow__edge *,
+.react-flow__edge svg,
+.react-flow__edge svg *,
+.react-flow__edge g,
+.react-flow__edge g *,
+.react-flow__edge path,
+.react-flow__edge-path,
+path.react-flow__edge-path,
+.react-flow__edges .react-flow__edge path {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  fill: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  pointer-events: auto !important;
+}
+
+/* Force edge container visibility */
+.react-flow__edges,
+.react-flow__edges *,
+.react-flow__edges svg,
+.react-flow__edges g {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+  overflow: visible !important;
+}
+
+/* Ultra-specific edge targeting after connection */
+svg.react-flow__edges path,
+svg.react-flow__edges g path,
+g.react-flow__edge path,
+.react-flow__renderer svg.react-flow__edges path,
+.react-flow__renderer .react-flow__edge path,
+.react-flow__renderer g.react-flow__edge path {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  fill: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Force SVG container visibility */
+.react-flow__renderer svg.react-flow__edges,
+.react-flow__renderer .react-flow__edges svg,
+svg[data-testid="rf__edges"] {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+  z-index: 1 !important;
+}
+
+/* Override any potential conflicts for edge visibility */
+.react-flow__edge[data-id] path,
+.react-flow__edge[data-id] {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure no global resets affect edges */
+.react-flow__edges *:not(.react-flow__node):not(.react-flow__node *) {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Force specific edge path targeting */
+.react-flow__container .react-flow__edges path {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* NUCLEAR OPTION - Force all possible edge selectors */
+* [class*="react-flow__edge"] {
+  stroke: #ffffff !important;
+  stroke-width: 4px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+* [class*="react-flow__edge"] path {
+  stroke: #ffffff !important;
+  stroke-width: 4px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  fill: none !important;
+}
+
+/* Target any SVG path that might be an edge */
+.react-flow svg path {
+  stroke: #00ffff !important;
+  stroke-width: 6px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  fill: none !important;
+}
+
+/* Target any path element that could be an edge */
+svg path[d*="M"],
+svg path[d*="L"],
+svg path[d*="C"] {
+  stroke: #ffff00 !important;
+  stroke-width: 7px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  fill: none !important;
+}
+
+/* Force all SVG elements to be visible */
+.react-flow svg * {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* ✅ NODE STATUS ANIMATIONS - Add to globals.css */
+
+/* Pulsating glow for running nodes */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 5px rgba(255, 255, 255, 0.2),
+      0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 20px rgba(255, 255, 255, 0.4),
+      0 0 30px rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* ✅ COMPACT NODE OVERRIDES (KREA STYLE) */
+.react-flow__node > div {
+  width: 260px !important;
+  max-width: 260px !important;
+  padding: 12px 14px !important;
+  border-radius: 14px !important;
+}
+
+.react-flow__node input,
+.react-flow__node textarea,
+.react-flow__node select,
+.react-flow__node button {
+  font-size: 11px !important;
+  padding: 6px 8px !important;
+  border-radius: 6px !important;
+}
+
+.react-flow__node textarea {
+  min-height: 50px !important;
+  max-height: 120px !important;
+}
+
+.react-flow__node img,
+.react-flow__node video {
+  max-height: 140px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  border-radius: 8px !important;
+  margin-top: 6px !important;
+}
+
+/* Shrink fonts strictly inside Canvas nodes */
+.react-flow__node h2,
+.react-flow__node h3,
+.react-flow__node .font-semibold,
+.react-flow__node .font-medium {
+  font-size: 12px !important;
+  margin-bottom: 2px !important;
+  letter-spacing: 0.02em;
+}
+
+.react-flow__node p,
+.react-flow__node span:not(.font-serif) {
+  font-size: 10px !important;
+}
+
+/* Condense generic utility gaps efficiently */
+.react-flow__node .gap-4,
+.react-flow__node .gap-3 {
+  gap: 8px !important;
+}
+.react-flow__node .gap-2 {
+  gap: 6px !important;
+}
+.react-flow__node .p-4 {
+  padding: 0 !important; /* Replaced by wrapper padding */
+}
+.react-flow__node .space-y-4 > * + * {
+  margin-top: 8px !important;
+}
+.react-flow__node .space-y-3 > * + * {
+  margin-top: 6px !important;
+}
+.react-flow__node .space-y-2 > * + * {
+  margin-top: 4px !important;
+}

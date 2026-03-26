@@ -1,0 +1,33 @@
+import { NextRequest, NextResponse } from "next/server";
+
+export async function POST(request: NextRequest) {
+  try {
+    const { imageUrl, x, y, width, height } = await request.json();
+
+    // Validate inputs
+    if (!imageUrl || x === undefined || y === undefined || !width || !height) {
+      return NextResponse.json(
+        { error: "Missing required parameters: imageUrl, x, y, width, height" },
+        { status: 400 },
+      );
+    }
+
+    // For now, simulate the Trigger.dev task with a mock response
+    // In production, you would trigger the actual Trigger.dev task here
+    const mockResult = {
+      success: true,
+      croppedImage: imageUrl, // Mock: return original image for now
+      base64: imageUrl.includes("data:") ? imageUrl.split(",")[1] : "",
+      mimeType: "image/jpeg",
+      cropParams: { x, y, width, height },
+    };
+
+    return NextResponse.json(mockResult);
+  } catch (error) {
+    console.error("Crop API error:", error);
+    return NextResponse.json(
+      { error: "Failed to process crop request" },
+      { status: 500 },
+    );
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../trigger/tasks/llmtask.ts"],
+  "sourcesContent": ["import { task } from \"@trigger.dev/sdk/v3\";\n\nexport const llmTask = task({\n  id: \"llm-task\",\n\n  run: async (payload: {\n    system_prompt?: string;\n    user_message: string;\n    images?: string[];\n  }) => {\n    console.log(\"LLM TASK RUNNING\", payload);\n\n    // TEMP mock\n    return {\n      output: `AI Response: ${payload.user_message}`,\n    };\n  },\n});\n"],
+  "mappings": ";;;;;;;;;AAAA;AAEO,IAAM,UAAU,KAAK;AAAA,EAC1B,IAAI;AAAA,EAEJ,KAAK,8BAAO,YAIN;AACJ,YAAQ,IAAI,oBAAoB,OAAO;AAGvC,WAAO;AAAA,MACL,QAAQ,gBAAgB,QAAQ,YAAY;AAAA,IAC9C;AAAA,EACF,GAXK;AAYP,CAAC;",
+  "names": []
+}
