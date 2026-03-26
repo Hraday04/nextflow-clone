@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../../../../../trigger/index.ts"],
-  "sourcesContent": ["// trigger/index.ts\nimport \"./tasks/llmtask\";\nimport \"./tasks/croptask\";\nimport \"./crop-image\";\nimport \"./extract-frame\";\n"],
-  "mappings": ";;;;;;;;;;;AAAA;",
-  "names": []
-}
