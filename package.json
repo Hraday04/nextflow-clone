@@ -10,9 +10,6 @@
     "lint": "next lint",
     "trigger:dev": "npx trigger.dev dev"
   },
-  "prisma": {
-    "schema": "schema.prisma"
-  },
   "dependencies": {
     "@clerk/nextjs": "^6.12.2",
     "@prisma/client": "^5.22.0",
